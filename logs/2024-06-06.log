@@ -1,0 +1,25 @@
+[2024-06-06 15:05:13] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2024-06-06 15:05:13] [WARNING]: no usable sign server 
+[2024-06-06 15:05:13] [WARNING]: 警告: 未配置签名服务器或签名服务器不可用, 这可能会导致登录 45 错误码或发送消息被风控 
+[2024-06-06 15:05:19] [WARNING]: 检查协议更新失败: Get "https://ghproxy.com/https://raw.githubusercontent.com/RomiChan/protocol-versions/master/android_pad.json": read tcp 10.2.20.29:51774->139.185.37.214:443: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2024-06-06 15:05:19] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-06-06 15:05:19] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-06-06 15:05:19] [WARNING]: 1. 自动提交 
+[2024-06-06 15:05:19] [WARNING]: 2. 手动抓取提交 
+[2024-06-06 15:05:19] [WARNING]: 请输入(1 - 2)： 
+[2024-06-06 15:05:37] [WARNING]: 请前往该地址验证 -> https://ti.qq.com/safe/tools/captcha/sms-verify-login?aid=16&uin=3021897053&sid=4725710568560877486&cap_cd=KzoN2JJiuV6CAsltkh61qVFFQtdyo6ZWOeXjWLiCw-tUpFNXPFSwwA**&clientype=1&apptype=2  
+[2024-06-06 15:05:37] [WARNING]: 请输入ticket： (Enter 提交) 
+[2024-06-06 15:06:16] [WARNING]: no usable sign server 
+[2024-06-06 15:06:16] [WARNING]: 警告: 未配置签名服务器或签名服务器不可用, 这可能会导致登录 45 错误码或发送消息被风控 
+[2024-06-06 15:06:36] [WARNING]: 检查协议更新失败: Get "https://ghproxy.com/https://raw.githubusercontent.com/RomiChan/protocol-versions/master/android_pad.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+[2024-06-06 15:06:36] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-06-06 15:06:36] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-06-06 15:06:36] [WARNING]: 1. 自动提交 
+[2024-06-06 15:06:36] [WARNING]: 2. 手动抓取提交 
+[2024-06-06 15:06:36] [WARNING]: 请输入(1 - 2)： 
+[2024-06-06 15:06:38] [WARNING]: 请前往该地址验证 -> https://ti.qq.com/safe/tools/captcha/sms-verify-login?aid=16&uin=3021897053&sid=592013582219173883&cap_cd=nwbmrSIl5JOM7vLXnUp8F0Kz0tlUqgJAllpn8pHPanJ2B-KKpzEmpA**&clientype=1&apptype=2  
+[2024-06-06 15:07:13] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-06 15:07:13] [WARNING]: 将在 5秒 后继续. 
+[2024-06-06 15:07:18] [WARNING]: no usable sign server 
+[2024-06-06 15:07:18] [WARNING]: 警告: 未配置签名服务器或签名服务器不可用, 这可能会导致登录 45 错误码或发送消息被风控 
+[2024-06-06 15:07:23] [WARNING]: 当前协议不支持二维码登录, 请配置账号密码登录. 
