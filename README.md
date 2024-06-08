@@ -69,7 +69,7 @@ ws://127.0.0.1:10219/onebot/v11/ws
 
 至此，您就可以和对应的 QQ 号聊天并使用 mai-bot（改）的所有功能了。
 
-## 使用说明
+## Documentation
 
 您可以向对应的 QQ 号发送
 ```
@@ -77,7 +77,7 @@ ws://127.0.0.1:10219/onebot/v11/ws
 ```
 获取本 Bot 的全部功能。
 
-## 常见问题
+## FAQ
 
 我已经按照格式要求注册了账号并正确输入了查询 Best 40 和 Best 50 的命令，但是 Bot 提示 `未找到此玩家，请确保此玩家的用户名和查分器中的用户名相同。` 这要怎么解决？
 > 您需要在 [这里](https://www.diving-fish.com/) 导入自己的舞萌 DX 成绩，导入方式参考 [舞萌 DX 查分器使用指南](https://www.diving-fish.com/maimaidx/prober_guide)。
