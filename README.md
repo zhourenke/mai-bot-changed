@@ -6,11 +6,11 @@
 
 ## Step 1. 安装 Python
 
-请下载 Python 3.8 以保证正常运行本工具
+请下载 Python 3.8 以保证正常运行本工具。
 
-推荐使用 Anaconda 或 Miniconda 以保证在正常运行本工具的同时不干扰您自己的 Python
+推荐使用 Anaconda 或 Miniconda 以保证在正常运行本工具的同时不干扰您自己的 Python。
 
-配置 Conda 的详细步骤，请参考 [Conda Documentation](https://docs.conda.io/en/latest/)
+配置 Conda 的详细步骤，请参考 [Conda Documentation](https://docs.conda.io/en/latest/)。
 
 ## Step 2. 配置环境
 
@@ -80,7 +80,7 @@ ws://127.0.0.1:10219/onebot/v11/ws
 ## FAQ
 
 我已经按照格式要求注册了账号并正确输入了查询 Best 40 和 Best 50 的命令，但是 Bot 提示 `未找到此玩家，请确保此玩家的用户名和查分器中的用户名相同。` 这要怎么解决？
-> 你需要在 [这里](https://www.diving-fish.com/) 导入自己的舞萌 DX 成绩，导入方式参考 [舞萌 DX 查分器使用指南](https://www.diving-fish.com/maimaidx/prober_guide)。
+> 您需要在 [这里](https://www.diving-fish.com/) 导入自己的舞萌 DX 成绩，导入方式参考 [舞萌 DX 查分器使用指南](https://www.diving-fish.com/maimaidx/prober_guide)。
 
-为什么有定数查歌消息发不出来？
-> 我的更改了 Bot 输出的最大乐曲条数为 300 条，消息可能会超过 QQ 的单条消息长度上限，此时你可以手动修改这个值，以确保不会出现发不出来的情况。
+为什么有的定数查歌消息发不出来？
+> 我的设置了 Bot 输出的最大乐曲条数为 300 条，消息可能会超过 QQ 的单条消息长度上限，此时您可以在代码中手动修改这个值，以确保不会出现发不出来的情况。
