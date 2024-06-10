@@ -22,13 +22,13 @@
 在此之后，您需要打开控制台，并切换到该项目所在的目录。
 
 之后，输入
-```shell
+```
 pip install -r requirements.txt
 ```
 安装工具所需依赖。
 
 如果不能正常安装依赖，您可能需要输入
-```shell
+```
 python --version
 ```
 来检查您是否正确安装 Python 3.8。
@@ -38,11 +38,11 @@ python --version
 ## Step 3. 运行 mai-bot（改）
 
 在控制台中输入
-```shell
+```
 python bot.py
 ```
 运行项目。如果输出如下所示的内容，代表运行成功：
-```shell
+```
 06-07 11:18:15 [SUCCESS] nonebot | NoneBot is initializing...
 06-07 11:18:15 [INFO] nonebot | Current Env: prod
 06-07 11:18:15 [SUCCESS] nonebot | Succeeded to import "public"
@@ -62,7 +62,7 @@ python bot.py
 打开 QQNT 的设置界面，在侧栏中即可找到 LLOneBot。
 
 关闭所有默认开启的选项，仅打开 `启用反向 WebSocket 服务`，并添加新的监听地址：
-```shell
+```
 ws://127.0.0.1:10219/onebot/v11/ws
 ```
 然后点击下方的保存按钮。
@@ -72,7 +72,7 @@ ws://127.0.0.1:10219/onebot/v11/ws
 ## 使用说明
 
 您可以向对应的 QQ 号发送
-```shell
+```
 ## 帮助
 ```
 获取本 Bot 的全部功能。
@@ -84,3 +84,31 @@ ws://127.0.0.1:10219/onebot/v11/ws
 
 为什么有的定数查歌消息发不出来？
 > 我的设置了 Bot 输出的最大乐曲条数为 300 条，消息可能会超过 QQ 的单条消息长度上限。您可以在代码中手动修改这个值，以确保不会再次出现消息发不出来的情况。
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    FILE *aaa = NULL;
+    if (fopen_s(&aaa, "aaa.txt", "r") != 0) {
+        perror("Error opening file");
+        return 1;
+    }
+
+    char *a = (char *) malloc(1024 * sizeof(char));
+    if (a == NULL) {
+        perror("Error allocating memory");
+        fclose(aaa);
+        return 1;
+    }
+
+    size_t count;
+    while ((count = fread_s(a, 1024 * sizeof(char), sizeof(char), 1024, aaa)) > 0) {
+        fwrite(a, sizeof(char), count, stdout);
+    }
+
+    free(a);
+    fclose(aaa);
+    return 0;
+}
+```
