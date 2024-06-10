@@ -84,31 +84,3 @@ ws://127.0.0.1:10219/onebot/v11/ws
 
 为什么有的定数查歌消息发不出来？
 > 我的设置了 Bot 输出的最大乐曲条数为 300 条，消息可能会超过 QQ 的单条消息长度上限。您可以在代码中手动修改这个值，以确保不会再次出现消息发不出来的情况。
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-int main() {
-    FILE *aaa = NULL;
-    if (fopen_s(&aaa, "aaa.txt", "r") != 0) {
-        perror("Error opening file");
-        return 1;
-    }
-
-    char *a = (char *) malloc(1024 * sizeof(char));
-    if (a == NULL) {
-        perror("Error allocating memory");
-        fclose(aaa);
-        return 1;
-    }
-
-    size_t count;
-    while ((count = fread_s(a, 1024 * sizeof(char), sizeof(char), 1024, aaa)) > 0) {
-        fwrite(a, sizeof(char), count, stdout);
-    }
-
-    free(a);
-    fclose(aaa);
-    return 0;
-}
-```
