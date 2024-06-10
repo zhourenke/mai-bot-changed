@@ -22,13 +22,13 @@
 在此之后，您需要打开控制台，并切换到该项目所在的目录。
 
 之后，输入
-```
+```shell
 pip install -r requirements.txt
 ```
 安装工具所需依赖。
 
 如果不能正常安装依赖，您可能需要输入
-```
+```shell
 python --version
 ```
 来检查您是否正确安装 Python 3.8。
@@ -38,11 +38,11 @@ python --version
 ## Step 3. 运行 mai-bot（改）
 
 在控制台中输入
-```
+```shell
 python bot.py
 ```
 运行项目。如果输出如下所示的内容，代表运行成功：
-```
+```shell
 06-07 11:18:15 [SUCCESS] nonebot | NoneBot is initializing...
 06-07 11:18:15 [INFO] nonebot | Current Env: prod
 06-07 11:18:15 [SUCCESS] nonebot | Succeeded to import "public"
@@ -62,7 +62,7 @@ python bot.py
 打开 QQNT 的设置界面，在侧栏中即可找到 LLOneBot。
 
 关闭所有默认开启的选项，仅打开 `启用反向 WebSocket 服务`，并添加新的监听地址：
-```
+```shell
 ws://127.0.0.1:10219/onebot/v11/ws
 ```
 然后点击下方的保存按钮。
@@ -72,7 +72,7 @@ ws://127.0.0.1:10219/onebot/v11/ws
 ## 使用说明
 
 您可以向对应的 QQ 号发送
-```
+```shell
 ## 帮助
 ```
 获取本 Bot 的全部功能。
